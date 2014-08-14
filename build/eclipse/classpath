@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src/java"/>
+	<classpathentry kind="src" output="work/plugins-dev/heywire/target/classes" path="src/plugins/heywire/src/java"/>
 	<classpathentry kind="src" output="work/plugins-dev/broadcast/target/classes" path="src/plugins/broadcast/src/java"/>
 	<classpathentry kind="src" output="work/plugins-dev/clientControl/target/classes" path="src/plugins/clientControl/src/java"/>
 	<classpathentry kind="src" output="work/plugins-dev/contentFilter/target/classes" path="src/plugins/contentFilter/src/java"/>
@@ -91,8 +92,6 @@
 	<classpathentry kind="lib" path="build/lib/src/mina-core-1.1.7-sources.jar"/>
 	<classpathentry kind="lib" path="build/lib/src/mina-filter-compression-1.1.7-sources.jar"/>
 	<classpathentry kind="lib" path="build/lib/src/mina-filter-ssl-1.1.7-sources.jar"/>
-	<classpathentry kind="lib" path="build/lib/src/slf4j-api-1.5.8-sources.jar"/>
-	<classpathentry kind="lib" path="build/lib/src/slf4j-log4j12-1.5.8-sources.jar"/>
 	<classpathentry kind="lib" path="build/lib/ant/xmltask.jar"/>
 	<classpathentry kind="lib" path="src/plugins/clientControl/lib/commons-fileupload-1.0.jar"/>
 	<classpathentry kind="lib" path="src/plugins/fastpath/lib/commons-fileupload-1.0.jar"/>
@@ -149,5 +148,27 @@
 	<classpathentry kind="lib" path="build/lib/dist/bcpg-jdk15on.jar"/>
 	<classpathentry kind="lib" path="build/lib/dist/bcpkix-jdk15on.jar"/>
 	<classpathentry kind="lib" path="build/lib/dist/bcprov-jdk15on.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/spdy-http.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/aopalliance-repackaged-2.3.0-b05.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/asm-debug-all-5.0.2.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/hk2-api-2.3.0-b05.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/hk2-locator-2.3.0-b05.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/hk2-utils-2.3.0-b05.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/javax.inject-2.3.0-b05.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/javax.ws.rs-api-2.0.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/jaxb-api-2.2.7.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/jersey-client.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/jersey-common.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/jersey-container-servlet-core.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/jersey-container-servlet.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/jersey-guava-2.11.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/jersey-server.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/org.osgi.core-4.2.0.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/persistence-api-1.0.jar"/>
+	<classpathentry kind="lib" path="src/plugins/heywire/lib/validation-api-1.1.0.Final.jar"/>
 	<classpathentry kind="output" path="work/classes"/>
 </classpath>
